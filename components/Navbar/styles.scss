@@ -1,0 +1,29 @@
+.contenedor {
+    color: rgb(0, 0, 0);
+    align-items: center;
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+.navbar {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    justify-content: flex-end;
+    
+}
+
+.navbar li {
+    padding: 15px 20px;
+    cursor: pointer;
+
+}
+
+.navbar li:hover {
+    background-color: #ffffff;
+    border-radius: 55px;
+    text-decoration: underline;
+}
